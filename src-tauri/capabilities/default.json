@@ -1,0 +1,13 @@
+{
+  "$schema": "../gen/schemas/mobile-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "webviews": ["main"],
+  "permissions": [
+    "core:app:default",
+    "shell:default",
+    "core:event:allow-listen",
+    "core:event:default"
+  ]
+}
